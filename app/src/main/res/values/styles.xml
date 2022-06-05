@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textoStyle" parent="android:Widget.TextView">
+
+        <item name="android:fontFamily">@font/applegaramond_italic</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="editextStyle" parent="android:Widget.EditText">
+      <item name="background">@color/purple_200</item>
+
+        <item name="cornerRadius">10dp</item>
+    </style>
+</resources>
