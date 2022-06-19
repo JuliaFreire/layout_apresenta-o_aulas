@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Cores Tema Claro.-->
+    <color name="Bnt">#A43E88</color>
+    <color name="Objetos">#F5BBD1</color>
+    <color name="primaryDark">#20164A</color>
+
+    from drawable resource ID #0x7f0700a4:
 </resources>

@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="textoStyle" parent="android:Widget.TextView">
-
-        <item name="android:fontFamily">@font/applegaramond_italic</item>
+              <!-- texto tema claro.-->
+    <style name="textoStyleClaro" parent="android:Widget.TextView">
+        <item name="android:textSize">25dp</item>
         <item name="android:textColor">@color/black</item>
     </style>
+    <!-- check tema escuro.-->
+    <style name="Check_box_escuro" parent="Theme.AppCompat.DayNight">
 
-    <style name="editextStyle" parent="android:Widget.EditText">
-      <item name="background">@color/purple_200</item>
-
-        <item name="cornerRadius">10dp</item>
+    <item name="colorAccent">@color/teal_200</item>
+    <item name="buttonTint">@color/purple_200</item>
+    <item name="android:textColor">@color/purple_500</item>
     </style>
+
+    <!-- check tema claro.-->
+    <style name="Check_box_claro" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonTint">@color/purple_700</item>
+
+
+</style>
+
+
+
+
+
+
+
 </resources>
